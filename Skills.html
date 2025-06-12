@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills | Tushar Kurane</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    :root {
+      --primary-color: #0d6efd;
+      --bg-dark: #111;
+      --glass: rgba(255, 255, 255, 0.05);
+    }
+
+    body {
+      background: var(--bg-dark);
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      font-weight: 600;
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .skill-section {
+      margin: 60px 0;
+    }
+
+    .category-title {
+      color: #ddd;
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+
+    .skill-card {
+      background: var(--glass);
+      border-radius: 20px;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .circle-wrap {
+      width: 130px;
+      height: 130px;
+      background: conic-gradient(var(--primary-color) calc(var(--percent) * 1%), #222 calc(var(--percent) * 1%));
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+
+    .circle-wrap .inside {
+      background: #111;
+      border-radius: 50%;
+      width: 90px;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .skill-name {
+      font-weight: 500;
+      color: white;
+      font-size: 1rem;
+    }
+
+    .btn-home {
+      background: var(--primary-color);
+      color: white;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 50px;
+    }
+
+    .btn-home:hover {
+      background: #0052d4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 data-aos="fade-down">My Skills</h1>
+
+    <!-- Programming Languages -->
+    <section class="skill-section">
+      <h4 class="category-title" data-aos="fade-right">Programming Languages</h4>
+      <div class="row text-center">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="skill-card" style="--percent:85">
+            <div class="circle-wrap">
+              <div class="inside">75%</div>
+            </div>
+            <div class="skill-name"><i class="fab fa-python"></i> Python</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="skill-card" style="--percent:75">
+            <div class="circle-wrap">
+              <div class="inside">75%</div>
+            </div>
+            <div class="skill-name"><i class="fab fa-java"></i> Java</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="skill-card" style="--percent:70">
+            <div class="circle-wrap">
+              <div class="inside">50%</div>
+            </div>
+            <div class="skill-name"><i class="fab fa-js"></i> JavaScript</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Web Development -->
+    <section class="skill-section">
+      <h4 class="category-title" data-aos="fade-right">Web Development</h4>
+      <div class="row text-center">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="skill-card" style="--percent:90">
+            <div class="circle-wrap">
+              <div class="inside">80%</div>
+            </div>
+            <div class="skill-name"><i class="fab fa-html5"></i> HTML</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="skill-card" style="--percent:80">
+            <div class="circle-wrap">
+              <div class="inside">70%</div>
+            </div>
+            <div class="skill-name"><i class="fab fa-css3-alt"></i> CSS</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="skill-card" style="--percent:85">
+            <div class="circle-wrap">
+              <div class="inside">75%</div>
+            </div>
+            <div class="skill-name"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section class="skill-section">
+      <h4 class="category-title" data-aos="fade-right">Tools & Frameworks</h4>
+      <div class="row text-center">
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="skill-card" style="--percent:80">
+            <div class="circle-wrap">
+              <div class="inside">50%</div>
+            </div>
+            <div class="skill-name"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="skill-card" style="--percent:90">
+            <div class="circle-wrap">
+              <div class="inside">70%</div>
+            </div>
+            <div class="skill-name"><i class="fas fa-terminal"></i> VS Code</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back Button -->
+    <div class="text-center">
+      <a href="index.html" class="btn-home">← Back to Home</a>
+    </div>
+  </div>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

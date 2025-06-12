@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Tushar Kurane</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    :root {
+      --primary-color: #0d6efd;
+      --bg-dark: #111;
+      --glass-bg: rgba(255, 255, 255, 0.05);
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+    }
+
+    .container {
+      margin-top: 100px;
+    }
+
+    .card-glass {
+      background: var(--glass-bg);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--primary-color);
+      box-shadow: 0 0 30px rgba(13, 110, 253, 0.5);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-weight: 600;
+      color: var(--primary-color);
+    }
+
+    .btn-blue {
+      background-color: var(--primary-color);
+      color: #fff;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 30px;
+      transition: 0.3s ease-in-out;
+      text-decoration: none;
+    }
+
+    .btn-blue:hover {
+      background-color: #0056d2;
+    }
+
+    .info {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #ccc;
+    }
+
+    .personal-info {
+      margin-top: 30px;
+    }
+
+    .info-table td {
+      padding: 10px 15px;
+      vertical-align: top;
+    }
+
+    .info-label {
+      font-weight: 600;
+      color: #fff;
+      min-width: 150px;
+      display: inline-block;
+    }
+
+    .info-value {
+      color: #ccc;
+    }
+
+    @media(max-width: 576px) {
+      .info-table td {
+        display: block;
+        width: 100%;
+      }
+
+      .info-label {
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- About Section -->
+  <div class="container d-flex justify-content-center">
+    <div class="card-glass text-center" data-aos="fade-up" data-aos-duration="1000" style="max-width: 800px;">
+      
+      <!-- Profile Image -->
+      <img src="tushar.jpg" alt="Tushar Kurane Photo" class="profile-img" />
+
+      <!-- Header -->
+      <h1>About Me</h1>
+
+      <!-- Summary -->
+      <p class="info">
+        I'm <strong>Tushar Kurane</strong>, a 20-year-old passionate Computer Science student from <em>Kasar Galli, Gadhinglaj</em>, currently studying at <strong>SGMCOE</strong>.
+        I love solving problems through code, creating beautiful UIs, and building impactful tech like my personal AI assistant <strong>Tura</strong>.
+      </p>
+
+      <p class="info">
+        Apart from development, I enjoy UI/UX designing, exploring AI, and constantly upgrading my skills to reach my dream goals.
+      </p>
+
+      <!-- Personal Info -->
+      <div class="personal-info text-start mt-4">
+        <table class="info-table w-100">
+          <tr>
+            <td><span class="info-label">First Name:</span></td>
+            <td><span class="info-value">Tushar</span></td>
+          </tr>
+          <tr>
+            <td><span class="info-label">Last Name:</span></td>
+            <td><span class="info-value">Kurane</span></td>
+          </tr>
+          <tr>
+            <td><span class="info-label">Age:</span></td>
+            <td><span class="info-value">20</span></td>
+          </tr>
+          <tr>
+            <td><span class="info-label">Nationality:</span></td>
+            <td><span class="info-value">Indian</span></td>
+          </tr>
+          <tr>
+            <td><span class="info-label">Address:</span></td>
+            <td><span class="info-value">Kasar Galli, Gadhinglaj</span></td>
+          </tr>
+          <tr>
+            <td><span class="info-label">Phone:</span></td>
+            <td><span class="info-value">+91 7038139473</span></td>
+          </tr>
+          <tr>
+            <td><span class="info-label">Email:</span></td>
+            <td><span class="info-value">tusharkurane209@gmail.com</span></td>
+          </tr>
+          <tr>
+            <td><span class="info-label">Languages:</span></td>
+            <td><span class="info-value">English, Hindi, Marathi</span></td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Back Button -->
+      <a href="index.html" class="btn btn-blue mt-4">← Back to Home</a>
+    </div>
+  </div>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
