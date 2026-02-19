@@ -61,11 +61,11 @@ const Navbar = () => {
                     ))}
                     <li>
                         <a
-                            href="/Tushar-Resume.pdf"
+                            href="/resume.pdf"
                             download
                             className="bg-secondary text-primary py-2 px-4 rounded-xl font-bold cursor-pointer hover:bg-white transition"
                         >
-                            Resume
+                            Download Resume
                         </a>
                     </li>
                 </ul>
@@ -98,7 +98,7 @@ const Navbar = () => {
                                 </li>
                             ))}
                             <li className="font-poppins font-medium cursor-pointer text-[16px] text-secondary">
-                                <a href="/Tushar-Resume.pdf" download>Resume</a>
+                                <a href="/resume.pdf" download>Download Resume</a>
                             </li>
                         </ul>
                     </div>
