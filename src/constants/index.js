@@ -1,8 +1,8 @@
 import {
     logo,
     cafe1,
-    cafe2,
-    cafe3,
+    studentHubImg,
+    hireflowImg,
     pythonIcon,
     htmlIcon,
     cssIcon,
@@ -67,7 +67,14 @@ const technologies = [
         name: "Python",
         icon: pythonIcon,
     },
-    // Add more if we had them
+    {
+        name: "MS Word",
+        icon: wordIcon,
+    },
+    {
+        name: "MS PowerPoint",
+        icon: pptIcon,
+    },
 ];
 
 const experiences = [
@@ -127,8 +134,16 @@ const projects = [
                 color: "blue-text-gradient",
             },
         ],
-        image: cafe2, // Placeholder
+        image: studentHubImg,
         source_code_link: "https://github.com/engineerTushar/Student-Hub",
+    },
+    {
+        name: "HireFlow AI",
+        description:
+            "AI-powered tool that analyzes and optimizes job descriptions with data-driven insights.",
+        tags: [],
+        image: hireflowImg,
+        source_code_link: "https://hire-flow-ai-nine.vercel.app/",
     },
 ];
 
